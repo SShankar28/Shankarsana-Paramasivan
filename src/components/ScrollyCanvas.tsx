@@ -89,6 +89,13 @@ export default function ScrollyCanvas() {
         return () => window.removeEventListener("resize", handleResize);
     }, [frameIndex]);
 
+    // Force an initial draw immediately after images load
+    useEffect(() => {
+        if (isLoaded) {
+            frameIndex.set(frameIndex.get() + 0.0001);
+        }
+    }, [isLoaded, frameIndex]);
+
     return (
         <div ref={containerRef} className="relative w-full h-[500vh]">
             <div className="sticky top-0 w-full h-screen overflow-hidden bg-[#121212]">

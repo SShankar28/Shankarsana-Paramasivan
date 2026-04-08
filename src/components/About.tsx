@@ -9,7 +9,7 @@ const education = [
         course: "B.Eng.Tech. (Hons) Mechanical Engineering (Product Design)",
         college: "Universiti Malaysia Perlis (UniMAP)",
         date: "Oct 2022 - Oct 2026",
-        cgpa: "3.84",
+        cgpa: "3.85",
         fyp: "Development of Perforated 3D-Printed Prosthetic Hand"
     },
     {
@@ -26,7 +26,7 @@ const experience = [
         job: "Freelance CAD Designer",
         company: "Self-Employed",
         date: "March 2023 - Present",
-        department: "Product Design & Prototyping",
+        department: "Mechanical & Product Design",
         description: [
             "Delivered custom 3D CAD models and design modifications for product, mechanism, and prototype applications.",
             "Created renderings/animations in KeyShot and guided junior students in CAD fundamentals."

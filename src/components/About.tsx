@@ -23,6 +23,18 @@ const education = [
 
 const experience = [
     {
+        job: "Maintenance Engineering Intern",
+        company: "Ibiden Electronics Malaysia (IEM), Penang",
+        date: "Feb 2026 - Aug 2026",
+        department: "Maintenance Engineering",
+        description: [
+            "Supported maintenance and troubleshooting of electroplating production systems (VCP & DSC), diagnosing mechanical, pneumatic, and process-related faults to restore equipment functionality and sustain production continuity.",
+            "Performed preventive and corrective maintenance (TBM/PM) on critical components (rollers, pumps, valves, linear motion systems), contributing to equipment reliability and early fault detection.",
+            "Contributed to a predictive maintenance initiative by installing and configuring vibration sensors, enabling real-time equipment condition monitoring.",
+            "Conducted large-scale inventory verification (>10,000 spare parts) and identified discrepancies in stock accuracy, supporting maintenance readiness and reducing risk of part unavailability during breakdowns."
+        ]
+    },
+    {
         job: "Freelance CAD Designer",
         company: "Self-Employed",
         date: "March 2023 - Present",

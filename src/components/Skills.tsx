@@ -19,6 +19,7 @@ const SKILLS = [
     { name: "ANSYS", category: "Software" },
     { name: "Excel", category: "Software" },
     // Technical
+    { name: "Maintenance (TBM/PM)", category: "Technical" },
     { name: "Rapid Prototyping", category: "Technical" },
     { name: "Finite Element Analysis", category: "Technical" },
     { name: "CFD Analysis", category: "Technical" },

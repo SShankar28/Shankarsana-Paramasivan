@@ -79,7 +79,7 @@ export default function About() {
                         I am a Mechanical Engineer who enjoys turning ideas into practical and useful products. My interest in engineering started from a curiosity about how machines and systems work, and it has grown into a strong focus on designing solutions that are reliable, efficient, and ready for real-world use.
                     </p>
                     <p>
-                        I have experience in product design, CAD modelling, and engineering simulation using tools such as CATIA V5 AND Abaqus. I enjoy improving designs through analysis, testing, and problem solving, especially in areas like automation, hardware development, and mechanical systems.
+                        I have experience in product design, CAD modelling, and engineering simulation using tools such as CATIA V5, SolidWorks, and Abaqus. I enjoy improving designs through analysis, testing, and problem solving, especially in areas like automation, hardware development, and mechanical systems.
                     </p>
                     <p>
                         I work well in team environments where engineers, designers, and other professionals collaborate to solve problems. I am always learning new technologies and methods in manufacturing, automation, and product development so that I can continue to grow and contribute to meaningful projects.

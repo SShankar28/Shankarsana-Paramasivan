@@ -69,13 +69,13 @@ export default function Header() {
     return (
         <header className="fixed top-6 left-1/2 -translate-x-1/2 z-[100] w-[70vw] sm:w-max flex justify-center">
             <div className="absolute inset-0 bg-white/3.5 backdrop-blur-md border border-white/10 shadow-[0_8px_32px_rgba(0,0,0,0.5),inset_0_1px_1px_rgba(255,255,255,0.2)] rounded-full pointer-events-none"></div>
-            <nav className="relative flex items-center gap-1 py-1 px-0 sm:p-1.5 overflow-x-auto max-w-full scroll-smooth [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] [mask-image:linear-gradient(to_right,transparent,black_16px,black_calc(100%-16px),transparent)] sm:[mask-image:none]">
+            <nav className="relative flex items-center gap-1 py-1.5 px-0 sm:p-1.5 overflow-x-auto max-w-full scroll-smooth [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] [mask-image:linear-gradient(to_right,transparent,black_16px,black_calc(100%-16px),transparent)] sm:[mask-image:none]">
                 <div className="w-3 shrink-0 sm:hidden"></div>
                 {NAV_ITEMS.map((item) => (
                     <button
                         key={item.id}
                         onClick={() => scrollTo(item.id)}
-                        className={`whitespace-nowrap px-3 sm:px-4 py-1.5 sm:py-2.5 rounded-full text-[11px] min-[380px]:text-xs sm:text-sm md:text-base font-semibold transition-all duration-300 ${activeSection === item.id ? 'bg-white/10 text-white shadow-[inset_0_1px_1px_rgba(255,255,255,0.1)]' : 'text-gray-400 hover:text-white hover:bg-white/5'}`}
+                        className={`whitespace-nowrap px-3 sm:px-4 py-2 sm:py-2.5 rounded-full text-[11px] min-[380px]:text-xs sm:text-sm md:text-base font-semibold transition-all duration-300 ${activeSection === item.id ? 'bg-white/10 text-white shadow-[inset_0_1px_1px_rgba(255,255,255,0.1)]' : 'text-gray-400 hover:text-white hover:bg-white/5'}`}
                     >
                         {item.label}
                     </button>

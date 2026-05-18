@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <section id="contact" className="bg-[#121212] py-24 px-8 flex flex-col items-center justify-center text-center border-t border-white/5 relative z-20">
+        <section id="contact" className="bg-[#121212] py-12 px-8 flex flex-col items-center justify-center text-center border-t border-white/5 relative z-20">
             <h2 className="text-4xl md:text-6xl font-bold mb-6 tracking-tighter max-w-4xl leading-[1.1] text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-500 to-pink-500">
                 Let&apos;s Build Something<br />That Works
             </h2>
@@ -16,7 +16,7 @@ export default function Footer() {
                 Let&apos;s Collaborate
             </a>
 
-            <div className="flex gap-8 text-gray-500 font-medium text-sm sm:text-base mb-24">
+            <div className="flex gap-8 text-gray-500 font-medium text-sm sm:text-base mb-18">
                 <a
                     href="https://www.linkedin.com/in/shankarsana"
                     target="_blank"
@@ -35,7 +35,7 @@ export default function Footer() {
                 </a>
             </div>
 
-            <div className="w-full max-w-4xl border-t border-white/5 pt-8 text-center text-xs sm:text-sm text-gray-600">
+            <div className="w-full max-w-4xl border-t border-white/5 pt-2 text-center text-xs sm:text-sm text-gray-600">
                 &copy; 2026 Shankarsana Paramasivan. All rights reserved.
             </div>
         </section>

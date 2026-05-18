@@ -4,6 +4,8 @@ import Overlay from "@/components/Overlay";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
+import Publications from "@/components/Publications";
+import Activities from "@/components/Activities";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -23,6 +25,8 @@ export default function Home() {
       <About />
       <Skills />
       <Projects />
+      <Publications />
+      <Activities />
       <Footer />
     </main>
   );

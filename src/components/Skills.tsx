@@ -41,7 +41,7 @@ export default function Skills() {
         : SKILLS.filter(skill => skill.category === activeTab);
 
     return (
-        <section id="skills" className="relative z-20 bg-[#121212] py-24 px-8 md:px-24 border-t border-white/5">
+        <section id="skills" className="relative z-20 bg-[#121212] pt-12 pb-12 px-8 md:px-24 border-t border-white/5">
             <div className="max-w-6xl mx-auto">
                 <h3 className="text-4xl md:text-5xl font-bold mb-12 text-center tracking-tight text-transparent bg-clip-text bg-gradient-to-l from-purple-400 to-pink-500 pb-2">
                     My Skills

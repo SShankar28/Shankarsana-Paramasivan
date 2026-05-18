@@ -2,6 +2,7 @@
 
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { ChevronsDown } from "lucide-react";
 
 export default function Overlay() {
     const containerRef = useRef<HTMLDivElement>(null);
@@ -24,20 +25,29 @@ export default function Overlay() {
     const y3 = useTransform(scrollYProgress, [0.65, 0.95], [50, -50]); // Parallax up
 
     return (
-        <div ref={containerRef} className="absolute top-0 left-0 w-full h-[500vh] pointer-events-none z-10">
+        <div ref={containerRef} className="absolute top-0 left-0 w-full h-[350vh] md:h-[250vh] pointer-events-none z-10">
             <div className="sticky top-0 w-full h-screen overflow-hidden text-white flex flex-col justify-center px-8 md:px-24">
 
                 {/* Section 1 */}
                 <motion.div
                     style={{ opacity: opacity1, y: y1, display: useTransform(opacity1, (o) => o === 0 ? "none" : "block") }}
-                    className="absolute inset-x-0 top-1/2 -translate-y-1/2 text-center"
+                    className="absolute inset-x-0 top-3/5 -translate-y-1/2 text-center"
                 >
                     <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-4">
                         Shankarsana Paramasivan
                     </h1>
-                    <p className="text-xl md:text-2xl text-gray-300 font-medium tracking-wide uppercase">
-                        Mechanical Engineer
+                    <p className="text-xl md:text-2xl text-gray-300 font-medium tracking-wide">
+                        Mechanical Engineering Graduate
                     </p>
+
+                    <motion.div
+                        animate={{ y: [0, 8, 0] }}
+                        transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
+                        className="mt-16 flex flex-col items-center text-gray-300"
+                    >
+                        <span className="text-sm font-medium tracking-wide mb-2">Scroll To Explore</span>
+                        <ChevronsDown className="w-5 h-5" />
+                    </motion.div>
                 </motion.div>
 
                 {/* Section 2 */}
